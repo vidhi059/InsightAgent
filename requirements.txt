@@ -1,0 +1,9 @@
+pandas
+numpy
+google-genai
+matplotlib
+python-pptx
+jinja2
+streamlit
+python-dotenv
+lxml

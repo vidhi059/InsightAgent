@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "What is the total sales across all regions?",
+    "expected_contains": ["2297200", "2,297,200"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 2,
+    "question": "Which region has the highest total sales?",
+    "expected_contains": ["West"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 3,
+    "question": "Which region has the lowest total profit?",
+    "expected_contains": ["Central"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 4,
+    "question": "What is the total profit for the Technology category?",
+    "expected_contains": ["145454", "145,454"],
+    "category": "filter"
+  },
+  {
+    "id": 5,
+    "question": "How many unique customers are in the database?",
+    "expected_contains": ["793"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 6,
+    "question": "How many orders were placed in total?",
+    "expected_contains": ["5009"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 7,
+    "question": "What are the top 3 categories by total sales?",
+    "expected_contains": ["Technology", "Furniture", "Office Supplies"],
+    "category": "filter"
+  },
+  {
+    "id": 8,
+    "question": "Which segment has the most customers — Consumer, Corporate, or Home Office?",
+    "expected_contains": ["Consumer"],
+    "category": "filter"
+  },
+  {
+    "id": 9,
+    "question": "What is the average discount given across all orders?",
+    "expected_contains": ["0.1", "15", "16"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 10,
+    "question": "List the top 5 states by total sales",
+    "expected_contains": ["California", "New York"],
+    "category": "filter"
+  },
+  {
+    "id": 11,
+    "question": "How many orders were placed in 2017?",
+    "expected_contains": ["1687", "1686", "1688"],
+    "category": "date_range"
+  },
+  {
+    "id": 12,
+    "question": "What was the total sales in 2016?",
+    "expected_contains": ["459", "460", "461"],
+    "category": "date_range"
+  },
+  {
+    "id": 13,
+    "question": "Which year had the highest total sales?",
+    "expected_contains": ["2017", "2018"],
+    "category": "date_range"
+  },
+  {
+    "id": 14,
+    "question": "How many orders were shipped via Standard Class?",
+    "expected_contains": ["2900", "2901", "2899"],
+    "category": "filter"
+  },
+  {
+    "id": 15,
+    "question": "What is the total profit for orders in the South region?",
+    "expected_contains": ["46933", "46,933"],
+    "category": "filter"
+  },
+  {
+    "id": 16,
+    "question": "Which sub-category has the highest total sales?",
+    "expected_contains": ["Phones", "Chairs"],
+    "category": "filter"
+  },
+  {
+    "id": 17,
+    "question": "What is the total sales and profit for each category?",
+    "expected_contains": ["Technology", "Furniture", "Office Supplies"],
+    "category": "multi_column"
+  },
+  {
+    "id": 18,
+    "question": "Which city has the highest total sales?",
+    "expected_contains": ["New York", "Los Angeles"],
+    "category": "filter"
+  },
+  {
+    "id": 19,
+    "question": "How many products are in the database?",
+    "expected_contains": ["1862", "1861", "1863"],
+    "category": "simple_aggregation"
+  },
+  {
+    "id": 20,
+    "question": "What is the total quantity sold in the West region?",
+    "expected_contains": ["30"],
+    "category": "join"
+  },
+  {
+    "id": 21,
+    "question": "List the top 3 customers by total sales",
+    "expected_contains": ["Sean", "Tamara", "Raymond"],
+    "category": "join"
+  },
+  {
+    "id": 22,
+    "question": "What is the average order value?",
+    "expected_contains": ["458", "459", "460"],
+    "category": "join"
+  },
+  {
+    "id": 23,
+    "question": "Which product has the highest profit?",
+    "expected_contains": ["Canon", "Cisco", "Motorola"],
+    "category": "join"
+  },
+  {
+    "id": 24,
+    "question": "How many orders were placed by Corporate segment customers?",
+    "expected_contains": ["1200", "1500", "1700", "1800", "1900", "2000"],
+    "category": "join"
+  },
+  {
+    "id": 25,
+    "question": "What is the total sales for Furniture in the East region?",
+    "expected_contains": ["100", "150", "200"],
+    "category": "multi_join"
+  }
+]

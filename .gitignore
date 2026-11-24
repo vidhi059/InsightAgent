@@ -1,0 +1,7 @@
+.env
+output/
+__pycache__/
+*.pyc
+inspect_csv.py
+archive (3)/
+archive (3).zip
